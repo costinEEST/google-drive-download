@@ -1,0 +1,48 @@
+{
+  "name": "google-drive-download",
+  "version": "1.0.0",
+  "description": "Node.js port of gdrivedl - Download Google Drive files & folders without authorization",
+  "type": "module",
+  "main": "gdrive-dl.js",
+  "bin": {
+    "gdrive-dl": "./gdrive-dl.js"
+  },
+  "scripts": {
+    "start": "node gdrive-dl.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example:file": "node gdrive-dl.js https://drive.google.com/file/d/FILE_ID/view",
+    "example:folder": "node gdrive-dl.js https://drive.google.com/folders/FOLDER_ID",
+    "help": "node gdrive-dl.js --help"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/costinEEST/google-drive-download.git"
+  },
+  "keywords": [
+    "google-drive",
+    "download",
+    "gdrive",
+    "google-drive-downloader",
+    "drive-api",
+    "file-download",
+    "folder-download",
+    "cli",
+    "command-line",
+    "bulk-download"
+  ],
+  "author": "costinEEST",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/costinEEST/google-drive-download/issues"
+  },
+  "homepage": "https://github.com/costinEEST/google-drive-download#readme",
+  "engines": {
+    "node": ">=18.3.0"
+  },
+  "preferGlobal": true,
+  "files": [
+    "gdrive-dl.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
