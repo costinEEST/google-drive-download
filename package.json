@@ -1,7 +1,7 @@
 {
   "name": "google-drive-download",
   "version": "1.0.0",
-  "description": "Node.js port of gdrivedl - Download Google Drive files & folders without authorization",
+  "description": "Download Google Drive files & folders",
   "type": "module",
   "main": "gdrive-dl.js",
   "bin": {
@@ -42,7 +42,7 @@
   "preferGlobal": true,
   "files": [
     "gdrive-dl.js",
-    "README.md",
-    "LICENSE"
+    "lib/",
+    "README.md"
   ]
 }
