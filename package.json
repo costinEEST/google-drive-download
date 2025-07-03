@@ -10,8 +10,8 @@
   "scripts": {
     "start": "node gdrive-dl.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "example:file": "node gdrive-dl.js https://drive.google.com/file/d/FILE_ID/view",
-    "example:folder": "node gdrive-dl.js https://drive.google.com/folders/FOLDER_ID",
+    "example:file": "node gdrive-dl.js https://drive.google.com/file/d/1JlWOGLJonslq8-ECfPNtLFmJDF2JHjMF/view",
+    "example:folder": "node gdrive-dl.js https://drive.google.com/drive/folders/1Q38UWD0V0YuwT0rcmDSbxolCZVoXOqXM",
     "help": "node gdrive-dl.js --help"
   },
   "repository": {

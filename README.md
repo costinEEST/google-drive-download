@@ -168,4 +168,3 @@ Pull requests are welcome! Please:
 - [ ] Add retry mechanism for network errors
 - [ ] Support for proxies
 - [ ] Parallel downloads for multiple files
-```
